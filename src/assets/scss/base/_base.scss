@@ -1,0 +1,36 @@
+html {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: $background-color;
+	font-family: 'Inter', sans-serif;
+	font-weight: 700;
+	padding-top: 85px;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+ul {
+	list-style-type: none;
+}
